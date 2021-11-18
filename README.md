@@ -79,7 +79,7 @@ mvn clean test
 - Set the environment variables to fill the properties.
 
 ```shell
-mvn clean test mvn clean test -Dblob_profile=azure -Dstorage-endpoint=https://xxx.blob.core.windows.net -Dstorage-account-name=xxx -Dstorage-account-key=xxx -Dstorage-container-name=xxx -Dstorage-file-name-prefix=xxx
+mvn clean test -Dblob_profile=azure -Dstorage-endpoint=https://xxx.blob.core.windows.net -Dstorage-account-name=xxx -Dstorage-account-key=xxx -Dstorage-container-name=xxx -Dstorage-file-name-prefix=xxx
 ```
 
 Similar output:
